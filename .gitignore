@@ -1,0 +1,13 @@
+# Ignorar dependências
+node_modules/
+
+# Ignorar arquivos temporários
+*.log
+*.tmp
+
+# Ignorar configurações locais
+.vscode/
+.DS_Store
+
+# Ignorar arquivos de sistema
+Thumbs.db
