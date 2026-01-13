@@ -21,8 +21,11 @@ while (chute != numeroSecreto) {
         }
     }
     
-if (tentativas > 1) {
-    alert(`isso ai!!!!!! voce descobriu o numero secreto ${numeroSecreto} com ${tentativas} tentativas`);
-} else {
-    alert(`isso ai!!!!!! voce descobriu o numero secreto ${numeroSecreto} com ${tentativas} tentativa`)
-}
+let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
+alert(`isso ai!!!!!! voce descobriu o numero secreto ${numeroSecreto} com ${tentativas} ${palavraTentativa}`);
+
+   // if (tentativas > 1) {
+   // alert(`isso ai!!!!!! voce descobriu o numero secreto ${numeroSecreto} com ${tentativas} tentativas`);
+//} else {
+ //   alert(`isso ai!!!!!! voce descobriu o numero secreto ${numeroSecreto} com ${tentativas} tentativa`)
+//}
